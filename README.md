@@ -64,6 +64,6 @@ Read [`SECURITY.md`](SECURITY.md) before contributing or deploying.
 
 ## Author
 
-Răzvan — [@ShadowAndrei](https://github.com/ShadowAndrei)
+Răzvan — [@itsastrodude](https://github.com/itsastrodude)
 
 *Built in Adjud, Romania.*
