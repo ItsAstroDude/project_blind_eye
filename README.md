@@ -40,61 +40,9 @@ BlindEye is an Android accessibility assistant designed for people who struggle 
 
 ---
 
-## Project Structure
-
-```
-app/
-├── src/main/
-│   ├── kotlin/
-│   │   ├── accessibility/     # AccessibilityService + UI parser
-│   │   ├── ai/                # AI API client, intent planner
-│   │   ├── executor/          # Action synthesizer (taps, swipes, text)
-│   │   ├── overlay/           # Floating UI layer
-│   │   ├── memory/            # Room database, habit tracking
-│   │   ├── security/          # PII scrubber, key management
-│   │   └── voice/             # Wake word, TTS
-│   └── res/
-docs/
-├── user-guide.md
-├── guardian-setup.md
-└── adr/
-ARCHITECTURE.md
-SECURITY.md
-PRIVACY.md
-API.md
-CHANGELOG.md
-```
-
----
-
-## Quick Start (Development)
-
-> Prerequisites: Android Studio, JDK 17+, Android device or emulator running API 29+
-
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/project-blindeye.git
-cd project-blindeye
-
-# Open in Android Studio and sync Gradle
-# Run on device or emulator
-```
-
-You will need to:
-1. Grant Accessibility Service permission in device settings
-2. Grant overlay (draw over apps) permission
-3. Add your AI API key to `local.properties` (never commit this file)
-
-```
-# local.properties
-GEMINI_API_KEY=your_key_here
-```
-
----
-
 ## Security
 
-This app operates with system-level access to the entire device. Security is taken seriously.  
+This app operates with system-level access to the entire device. Security is taken seriously.
 Read [`SECURITY.md`](SECURITY.md) before contributing or deploying.
 
 **Never commit API keys. Never commit `local.properties`.**
