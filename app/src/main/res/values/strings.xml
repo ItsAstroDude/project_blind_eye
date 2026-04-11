@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Project BlindEyex</string>
+    <string name="app_name">Project BlindEye</string>
+    <string name="accessibility_service_description">BlindEye reads the screen to help you navigate any app using your voice.</string>
 </resources>
