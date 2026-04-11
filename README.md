@@ -19,7 +19,7 @@ BlindEye is an Android accessibility assistant designed for people who struggle 
 
 | Phase | Name | Status |
 |-------|------|--------|
-| 0 | Foundation | 🔵 In progress |
+| 0 | Foundation | ✅ Complete |
 | 1 | Guide Mode | ⬜ Not started |
 | 2 | Autonomous Mode | ⬜ Not started |
 | 3 | Adaptive Memory | ⬜ Not started |

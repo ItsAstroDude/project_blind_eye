@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="overlay_eye_button" type="id"/>
+    <item name="overlay_panel"      type="id"/>
+    <item name="overlay_title"      type="id"/>
+    <item name="overlay_status"     type="id"/>
+</resources>

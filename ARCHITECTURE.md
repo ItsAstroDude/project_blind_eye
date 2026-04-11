@@ -1,6 +1,24 @@
 # Architecture — Project BlindEye
 
-*Last updated: Phase 0 (pre-development)*
+*Last updated: Phase 0 complete*
+
+---
+
+## Phase Status
+
+| Phase | Name | Status |
+|-------|------|--------|
+| 0 | Foundation | ✅ Complete |
+| 1 | Guide Mode | ⬜ Not started |
+| 2 | Autonomous Mode | ⬜ Not started |
+| 3 | Adaptive Memory | ⬜ Not started |
+| 4 | Hardening + Launch | ⬜ Not started |
+
+### Phase 0 — What was built
+- `BlindEyeAccessibilityService` — connects, reads the live UI hierarchy on window state changes only (not every content change), counts clickable elements, logs the node tree behind a `DEBUG_LOG_TREE` flag
+- `OverlayManager` — single persistent view (no teardown on toggle), collapsed 👁 floating button + expanded bottom panel with status text and STOP button
+- `MainActivity` — setup screen with two permission cards (overlay + accessibility), deep-links to correct settings screens, re-checks on every resume
+- `stopRequested` flag on the service companion — STOP button sets it; Layer 3 will check it before every action
 
 ---
 
